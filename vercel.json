@@ -14,10 +14,10 @@
   "env": {
     "CI_ENVIRONMENT": "production",
     "app.baseURL": "https://yourproductionurl.com",
-    "database.default.hostname": "4gg.h.filess.io",
-    "database.default.database": "db2024_stormtorn",
-    "database.default.username": "db2024_stormtorn",
-    "database.default.password": "",
+    "database.default.hostname": "sql303.iceiy.com",
+    "database.default.database": "icei_39466538_trovecraft",
+    "database.default.username": "icei_39466538",
+    "database.default.password": "TroveCraftOke",
     "database.default.DBDriver": "MySQLi",
     "database.default.DBPrefix": "",
     "database.default.port": "3306"
