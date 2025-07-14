@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "functions": {
+    "api/index.php": {
+      "runtime": "vercel-php@0.6.0"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "api/index.php"
+    }
+  ],
+  "env": {
+    "CI_ENVIRONMENT": "production",
+    "app.baseURL": "https://yourproductionurl.com",
+    "database.default.hostname": "4gg.h.filess.io",
+    "database.default.database": "db2024_stormtorn",
+    "database.default.username": "db2024_stormtorn",
+    "database.default.password": "",
+    "database.default.DBDriver": "MySQLi",
+    "database.default.DBPrefix": "",
+    "database.default.port": "3306"
+  }
+}
